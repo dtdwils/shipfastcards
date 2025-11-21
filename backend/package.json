@@ -1,0 +1,15 @@
+{
+  "name": "shipfastcards-backend",
+  "version": "1.0.0",
+  "main": "medusa-config.js",
+  "scripts": {
+    "start": "medusa develop",
+    "build": "medusa build"
+  },
+  "dependencies": {
+    "@medusajs/medusa": "^2.0.0",
+    "medusa-payment-stripe": "^2.0.0",
+    "@uploadthing/medusa": "^1.0.0",
+    "csv-parser": "^3.0.0"
+  }
+}
