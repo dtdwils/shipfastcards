@@ -1,0 +1,23 @@
+[
+  {
+    "products": [
+      {
+        "title": "Holiday Card Tier - 100 Units",
+        "description": "Festive Christmas design. Upload your list for fast mailing.",
+        "variants": [{ "prices": [{ "amount": 150, "currency_code": "usd" }], "options": [{ "value": "christmas-100" }] }],
+        "options": [{ "title": "Design", "values": ["Pre-made Christmas"] }],
+        "status": "published",
+        "thumbnail": "https://example.com/christmas-card.jpg" // Replace with real image URL
+      },
+      {
+        "title": "Holiday Card Tier - 500 Units",
+        "description": "New Year greeting. Printed & mailed in 7 days.",
+        "variants": [{ "prices": [{ "amount": 600, "currency_code": "usd" }], "options": [{ "value": "newyear-500" }] }],
+        "options": [{ "title": "Design", "values": ["Pre-made New Year"] }],
+        "status": "published",
+        "thumbnail": "https://example.com/newyear-card.jpg"
+      },
+      // Add 4 more: Thanksgiving, Hanukkah, etc. (same structure, adjust prices: 1200 for 1k units at $1.20ea)
+    ]
+  }
+]
