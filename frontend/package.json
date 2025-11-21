@@ -1,0 +1,20 @@
+{
+  "name": "shipfastcards-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "@medusajs/medusa-react": "^2.0.0",
+    "@medusajs/ui": "^0.1.0",
+    "@stripe/stripe-js": "^4.0.0",
+    "@uploadthing/react": "^6.0.0",
+    "papaparse": "^5.4.1"
+  }
+}
