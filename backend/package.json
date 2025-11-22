@@ -1,21 +1,14 @@
 {
   "name": "shipfastcards-backend",
   "version": "1.0.0",
-  "description": "Medusa backend for ShipFastCards",
   "scripts": {
-    "build": "medusa build",
     "start": "medusa develop",
-    "seed": "npx medusa seed --seedFile=./data/seed.json --replace"
+    "build": "medusa build",
+    "seed": "medusa seed -f ./data/seed.json --replace"
   },
   "dependencies": {
     "@medusajs/medusa": "^2.11.3",
     "medusa-payment-stripe": "^2.1.4",
-    "@medusajs/file-s3": "^1.0.0",
-    "@uploadthing/medusa": "^0.1.0",
-    "csv-parser": "^3.0.13",
-    "express": "^4.19.2"
-  },
-  "devDependencies": {
-    "@medusajs/cli": "^2.0.0"
+    "csv-parser": "^3.0.13"
   }
 }
